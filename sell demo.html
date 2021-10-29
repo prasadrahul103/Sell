@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .{
+            margin: 0px;
+            padding: 0px;
+        }
+        h1{
+            text-align: center;
+            background-color: rgb(174, 209, 243);
+            margin: 0px;
+            padding: 0px;
+        }
+        #form-container {
+            position: relative;
+
+        }
+
+        #form-container::before {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: url('cb4.jpg') no-repeat center center/cover;
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        #form-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .opt {
+            border-radius: 19px;
+            text-align: center;
+
+        }
+
+        #form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #form-container input,
+        #form-container textarea {
+            width: 100%;
+            height: 100%;
+            margin: 10px 5px;
+            padding: 12px;
+            border-radius: 23px;
+        }
+        .btn{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            border-radius: 12px;
+            font-size: 20px;
+            margin: 10px;
+            cursor: pointer;
+            /* padding: auto; */
+
+        }
+        .btn:hover{
+            background-color: black;
+            color:white;
+            
+        }
+    </style>
+</head>
+
+<body>
+    </section>
+    <!-- form  -->
+    <h1 class="center">Sell or Rent your Property</h1>
+    <section id="form-container">
+        <div id="forms-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="Name">Name:-</label>
+                    <input type="text" name="Name" id="Name" placeholder="Ener Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="Name">Email:-</label>
+                    <input type="text" name="email" id="email" placeholder="Ener Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number:-</label>
+                    <input type="text" name="contact" id="contact" placeholder="Ener Your Contact Number">
+                </div>
+                <div class="form-group">
+                    <label for="addres">Addres:-</label>
+                    <input type="text" name="addres" id="addres" placeholder="Ener Your Addres">
+                </div>
+                <div class="form-group">
+                    <label for="Personal Details">Personal Details:-</label>
+
+                    <select class="form-group1">
+                        <option value="a">Oner</option>
+                        <option value="b">Agent</option>
+                        <option value="c">Builder</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="Property Details">Personal Details:-</label>
+
+                    <select class="form-group1">
+                        <option value="a">sale</option>
+                        <option value="b">Rent</option>
+                        <option value="c">Pg/Hostel</option>
+                    </select>
+                </div>
+                <div class="form-group">
+
+                    <label for="Property Type">Property Type:- </label>
+
+                    <select class="form-group1">
+                        <option value="All Residential">Flat</option>
+                        <!-- <option value="b">Flat</option> -->
+                        <option value="c">apartment</option>
+                        <option value="d">Villa</option>
+                        <option value="e">Plot</option>
+                        <option value="f">Farm House</option>
+                    </select>
+
+                </div>
+                <div class="form-group">
+                    <label for="Pin code">Poroperty Pin Code:-</label>
+                    <input type="text" name="addres" id="addres" placeholder="Ener Property Pin Code">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="message">Message:-</label>
+                    <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn"> Submit now</button>
+                </div>
+
+
+            </form>
+
+        </div>
+
+
+    </section>
+</body>
+
+</html>
